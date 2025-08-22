@@ -3,7 +3,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import { InvestmentProvider } from './context/InvestmentContext';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
-import LoginForm from './components/Auth/LoginForm';
+import LoginForm from './components/Auth/LoginForm.jsx';
 import RegisterForm from './components/Auth/RegisterForm';
 import UserDashboard from './components/Investment/UserDashboard';
 import InvestmentPlans from './components/Investment/InvestmentPlans';
